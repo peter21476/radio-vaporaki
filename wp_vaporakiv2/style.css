@@ -1,0 +1,224 @@
+/*
+Theme Name: Radio Vaporaki
+Theme URI: http://radiovaporaki.com
+Description: A custom WordPress template for Radio Vaporaki
+Author: Petros Charitopoulos
+Author URI: http://webguyny.us
+Version: 1.0
+Tags: clean, light, two-column
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+* {
+  font-family: 'EB Garamond', serif; }
+
+  p, span, li {
+    font-size:18px;
+  }
+
+.img-responsive {
+  width: 100%; }
+
+body {
+  width: 100%;
+  background: url(../images/background3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+
+.top-bar {
+  background: rgba(237, 237, 237, 0.7);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px; }
+
+.top-menu {
+  margin: 0 auto;
+  margin-top: 24px; }
+
+.navbar {
+  margin-top: 16px; }
+
+.listen-live-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 26px;
+  font-size: 22px; }
+
+.nav-item {
+  margin-right: 10px;
+  font-size: 20px !important; }
+
+.page-item {
+  list-style-type: none;
+  display: inline-block; }
+
+.slider-radioplayer {
+  margin-top: 20px; }
+
+.radio-player {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px black; }
+  .radio-player h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px; }
+
+.artist-image {
+  width: 20%;
+  float: left;
+  margin-right: 20px; }
+  .artist-image img {
+    width: 80px; }
+
+.artist-details {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  width: 74%;
+  float: right; }
+
+.player-footer {
+  display: block;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px; }
+  .player-footer p {
+    font-size: 18px;
+    text-align: center; }
+
+.blog-list-title {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.blog-posts {
+  margin-top: 50px; }
+  .blog-posts h3 {
+    padding-left: 18px;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+    font-size: 32px;
+    margin-bottom: -10px; }
+    .blog-posts h3 img {
+      max-width: 100px; }
+
+.blog-post {
+  margin-bottom: 30px;
+  padding: 20px; }
+
+.post-text {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.post-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-position: center center; }
+
+.nav-next, .nav-previous {
+  background-color: white; }
+  .nav-next a, .nav-previous a {
+    color: #ffc107;
+    font-size: 25px;
+    padding: 18px; }
+
+@media (max-width: 768px) {
+  .post-image {
+    background-size: contain;
+    height: 180px; } }
+.single-blog-post {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.single-post-image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center cent; }
+
+.footer {
+  padding: 20px;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 22px; }
+
+.menu-item {
+  margin-right: 20px;
+  background-color: goldenrod;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px; }
+  .menu-item a {
+    color: white !important; }
+
+.widget-area {
+  margin-top: 50px;
+  margin-left: 37px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px; }
+  .widget-area h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffc107; }
+
+a.h1Link {
+  color: #ffc107; }
+  a.h1Link:hover {
+    color: #ffc107;
+    opacity: 0.8; }
+
+.ccalbum {
+  display: none !important; }
+
+@media (max-width: 1090px) {
+  .navbar-toggler-icon {
+    height: 5px;
+    background-color: #ffc107;
+    margin-bottom: 2px;
+    display: block; }
+
+  .navbar-toggler {
+    margin: 0 auto;
+    outline: none !important; }
+
+  .navbar-toggler:focus {
+    outline: none !important; }
+
+  .menu-item {
+    margin-bottom: 10px; }
+
+  .artist-image {
+    width: 20%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+
+  .artist-details {
+    width: inherit;
+    float: none;
+    text-align: center; } }
+@media (max-width: 768px) {
+  .metaslider {
+    margin-bottom: 20px; }
+
+  .widget-area {
+    width: 100%;
+    margin-left: 0px; } }
+
+/*# sourceMappingURL=style.css.map */
